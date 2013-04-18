@@ -21,6 +21,7 @@
 		0B03F7A8171F098000677CA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B03F789171F098000677CA2 /* Foundation.framework */; };
 		0B03F7B0171F098000677CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B03F7AE171F098000677CA2 /* InfoPlist.strings */; };
 		0B03F7B3171F098000677CA2 /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03F7B2171F098000677CA2 /* testAppTests.m */; };
+		0B03F7BE171F10EB00677CA2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03F7BD171F10EB00677CA2 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0B03F7AF171F098000677CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B03F7B1171F098000677CA2 /* testAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAppTests.h; sourceTree = "<group>"; };
 		0B03F7B2171F098000677CA2 /* testAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppTests.m; sourceTree = "<group>"; };
+		0B03F7BC171F10EB00677CA2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0B03F7BD171F10EB00677CA2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				0B03F796171F098000677CA2 /* AppDelegate.h */,
 				0B03F797171F098000677CA2 /* AppDelegate.m */,
+				0B03F7BC171F10EB00677CA2 /* MainViewController.h */,
+				0B03F7BD171F10EB00677CA2 /* MainViewController.m */,
 				0B03F78E171F098000677CA2 /* Supporting Files */,
 			);
 			path = testApp;
@@ -263,6 +268,7 @@
 			files = (
 				0B03F794171F098000677CA2 /* main.m in Sources */,
 				0B03F798171F098000677CA2 /* AppDelegate.m in Sources */,
+				0B03F7BE171F10EB00677CA2 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
